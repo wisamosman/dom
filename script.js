@@ -1,3 +1,4 @@
 console.log('welcom');
 console.log('ana wesa')
-const todoInrut = document.querySelector('')
+const todoInput = document.querySelector('.todo-input')
+const todoBtn = document.querySelector('todo-btn')
