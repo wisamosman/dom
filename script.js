@@ -15,6 +15,8 @@ todoTitel.classList.add("d-inline-block")
 todoTitel.innerText = todoInput.value
 todoLi.appendChild(todoTitel)
 
+const btnComplete = document.createElement('button')
+
 
 todoResult.appendChild(todoLi)
 
