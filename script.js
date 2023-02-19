@@ -9,6 +9,10 @@ function addTodo(e){
     todoLi.classList.add('border')
     todoLi.classList.add('py-2')
     todoLi.classList.add('px-4')
+
+const todoTitel = document.createElement('h4')
+todoTitel.classList.add("d-inline-block")
+
 console.log(todoInput.value)
 todoInput.value= ''
 }
