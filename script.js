@@ -13,6 +13,18 @@ function addTodo(e){
 const todoTitel = document.createElement('h4')
 todoTitel.classList.add("d-inline-block")
 
+
+
+todoResult.appendChild(todoLi)
+
+
+
+
+
+
+
+
+
 console.log(todoInput.value)
 todoInput.value= ''
 }
