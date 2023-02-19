@@ -18,7 +18,15 @@ todoLi.appendChild(todoTitel)
 const btnComplete = document.createElement('button')
 btnComplete.classList.add('btn')
 btnComplete.classList.add('btn-primary')
+btnComplete.innerHTML = '<i class="fa-solid fa-check"></i>'
+todoLi.appendChild(btnComplete)
 
+
+const btnDelet = document.createElement('button')
+btnDelet.classList.add('btn')
+btnDelet.classList.add('btn-danger')
+btnDelet.innerHTML = '<i class="fa-solid fa-trash"></i>'
+todoLi.appendChild(btnDelet)
 
 todoResult.appendChild(todoLi)
 
