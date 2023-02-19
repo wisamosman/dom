@@ -16,6 +16,8 @@ todoTitel.innerText = todoInput.value
 todoLi.appendChild(todoTitel)
 
 const btnComplete = document.createElement('button')
+btnComplete.classList.add('btn')
+btnComplete.classList.add('btn-primary')
 
 
 todoResult.appendChild(todoLi)
